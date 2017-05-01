@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: 8d4c759323733b947989bec058711cc6
+timeCreated: 1490645114
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ' 1'
+    100004: Box005
+    100006: Box006
+    100008: Box007
+    100010: Camp01_a
+    100012: challenger_boots
+    100014: challenger_boots_MeshPart0
+    100016: challenger_boots_MeshPart1
+    100018: challenger_helm
+    100020: challenger_knife
+    100022: Cylinder002
+    100024: Cylinder005
+    100026: Cylinder007
+    100028: jug4:polySurface002
+    100030: jug4:polySurface1
+    100032: Mesh
+    100034: mesh
+    100036: Mesh 1
+    100038: mesh 1
+    100040: Mesh 10
+    100042: mesh 10
+    100044: Mesh 11
+    100046: mesh 11
+    100048: Mesh 12
+    100050: mesh 12
+    100052: Mesh 13
+    100054: mesh 13
+    100056: Mesh 14
+    100058: mesh 14
+    100060: Mesh 15
+    100062: mesh 15
+    100064: Mesh 16
+    100066: mesh 16
+    100068: Mesh 17
+    100070: mesh 17
+    100072: mesh 18
+    100074: mesh 19
+    100076: Mesh 2
+    100078: mesh 2
+    100080: mesh 20
+    100082: mesh 21
+    100084: mesh 22
+    100086: mesh 23
+    100088: mesh 24
+    100090: mesh 25
+    100092: mesh 26
+    100094: mesh 27
+    100096: mesh 28
+    100098: mesh 29
+    100100: Mesh 3
+    100102: mesh 3
+    100104: mesh 30
+    100106: mesh 31
+    100108: mesh 32
+    100110: Mesh 4
+    100112: mesh 4
+    100114: Mesh 5
+    100116: mesh 5
+    100118: Mesh 6
+    100120: mesh 6
+    100122: Mesh 7
+    100124: mesh 7
+    100126: Mesh 8
+    100128: mesh 8
+    100130: Mesh 9
+    100132: mesh 9
+    100134: Mesh001
+    100136: mesh001
+    100138: mesh002
+    100140: mesh003
+    100142: mesh004
+    100144: mesh005
+    100146: mesh006
+    100148: Object001
+    100150: Object002
+    100152: Object003
+    100154: Object004
+    100156: Object021
+    100158: Object032
+    100160: Object038
+    100162: Object041
+    100164: Object042
+    100166: Object043
+    100168: Object044
+    100170: Object046
+    100172: Object052
+    100174: Object054
+    100176: Object103
+    100178: Object114
+    100180: Object116
+    100182: Object119
+    100184: Object120
+    100186: Object121
+    100188: Object122
+    100190: Object126
+    100192: Object127
+    100194: Object128
+    100196: Object131
+    100198: Object164
+    100200: Object174
+    100202: Object175
+    100204: Object176
+    100206: Object188
+    100208: Object208
+    100210: Object214
+    100212: Object217
+    100214: Object218
+    100216: Object219
+    100218: Plane001
+    100220: Plane002
+    100222: Plane008
+    100224: polySurface1607
+    100226: polySurface22
+    100228: polySurface2715
+    100230: polySurface2716
+    100232: polySurface2717
+    100234: polySurface2719
+    100236: polySurface2729
+    100238: polySurface66
+    100240: polySurface691
+    100242: prop_shovel_002
+    100244: prop_shovel_01
+    100246: prop_sword_002
+    100248: prop_sword_003
+    100250: Prop_Torch2_LOD0
+    100252: sack1b:Group005
+    100254: sack1b:Group006
+    100256: spear_explode
+    100258: spear_explode001
+    100260: TopoSurface001
+    400000: //RootNode
+    400002: ' 1'
+    400004: Box005
+    400006: Box006
+    400008: Box007
+    400010: Camp01_a
+    400012: challenger_boots
+    400014: challenger_boots_MeshPart0
+    400016: challenger_boots_MeshPart1
+    400018: challenger_helm
+    400020: challenger_knife
+    400022: Cylinder002
+    400024: Cylinder005
+    400026: Cylinder007
+    400028: jug4:polySurface002
+    400030: jug4:polySurface1
+    400032: Mesh
+    400034: mesh
+    400036: Mesh 1
+    400038: mesh 1
+    400040: Mesh 10
+    400042: mesh 10
+    400044: Mesh 11
+    400046: mesh 11
+    400048: Mesh 12
+    400050: mesh 12
+    400052: Mesh 13
+    400054: mesh 13
+    400056: Mesh 14
+    400058: mesh 14
+    400060: Mesh 15
+    400062: mesh 15
+    400064: Mesh 16
+    400066: mesh 16
+    400068: Mesh 17
+    400070: mesh 17
+    400072: mesh 18
+    400074: mesh 19
+    400076: Mesh 2
+    400078: mesh 2
+    400080: mesh 20
+    400082: mesh 21
+    400084: mesh 22
+    400086: mesh 23
+    400088: mesh 24
+    400090: mesh 25
+    400092: mesh 26
+    400094: mesh 27
+    400096: mesh 28
+    400098: mesh 29
+    400100: Mesh 3
+    400102: mesh 3
+    400104: mesh 30
+    400106: mesh 31
+    400108: mesh 32
+    400110: Mesh 4
+    400112: mesh 4
+    400114: Mesh 5
+    400116: mesh 5
+    400118: Mesh 6
+    400120: mesh 6
+    400122: Mesh 7
+    400124: mesh 7
+    400126: Mesh 8
+    400128: mesh 8
+    400130: Mesh 9
+    400132: mesh 9
+    400134: Mesh001
+    400136: mesh001
+    400138: mesh002
+    400140: mesh003
+    400142: mesh004
+    400144: mesh005
+    400146: mesh006
+    400148: Object001
+    400150: Object002
+    400152: Object003
+    400154: Object004
+    400156: Object021
+    400158: Object032
+    400160: Object038
+    400162: Object041
+    400164: Object042
+    400166: Object043
+    400168: Object044
+    400170: Object046
+    400172: Object052
+    400174: Object054
+    400176: Object103
+    400178: Object114
+    400180: Object116
+    400182: Object119
+    400184: Object120
+    400186: Object121
+    400188: Object122
+    400190: Object126
+    400192: Object127
+    400194: Object128
+    400196: Object131
+    400198: Object164
+    400200: Object174
+    400202: Object175
+    400204: Object176
+    400206: Object188
+    400208: Object208
+    400210: Object214
+    400212: Object217
+    400214: Object218
+    400216: Object219
+    400218: Plane001
+    400220: Plane002
+    400222: Plane008
+    400224: polySurface1607
+    400226: polySurface22
+    400228: polySurface2715
+    400230: polySurface2716
+    400232: polySurface2717
+    400234: polySurface2719
+    400236: polySurface2729
+    400238: polySurface66
+    400240: polySurface691
+    400242: prop_shovel_002
+    400244: prop_shovel_01
+    400246: prop_sword_002
+    400248: prop_sword_003
+    400250: Prop_Torch2_LOD0
+    400252: sack1b:Group005
+    400254: sack1b:Group006
+    400256: spear_explode
+    400258: spear_explode001
+    400260: TopoSurface001
+    2300000: //RootNode
+    2300002: ' 1'
+    2300004: Box005
+    2300006: Box006
+    2300008: Box007
+    2300010: Camp01_a
+    2300012: challenger_boots_MeshPart0
+    2300014: challenger_boots_MeshPart1
+    2300016: challenger_helm
+    2300018: challenger_knife
+    2300020: Cylinder002
+    2300022: Cylinder005
+    2300024: Cylinder007
+    2300026: jug4:polySurface002
+    2300028: jug4:polySurface1
+    2300030: Mesh
+    2300032: mesh
+    2300034: Mesh 1
+    2300036: mesh 1
+    2300038: Mesh 10
+    2300040: mesh 10
+    2300042: Mesh 11
+    2300044: mesh 11
+    2300046: Mesh 12
+    2300048: mesh 12
+    2300050: Mesh 13
+    2300052: mesh 13
+    2300054: Mesh 14
+    2300056: mesh 14
+    2300058: Mesh 15
+    2300060: mesh 15
+    2300062: Mesh 16
+    2300064: mesh 16
+    2300066: Mesh 17
+    2300068: mesh 17
+    2300070: mesh 18
+    2300072: mesh 19
+    2300074: Mesh 2
+    2300076: mesh 2
+    2300078: mesh 20
+    2300080: mesh 21
+    2300082: mesh 22
+    2300084: mesh 23
+    2300086: mesh 24
+    2300088: mesh 25
+    2300090: mesh 26
+    2300092: mesh 27
+    2300094: mesh 28
+    2300096: mesh 29
+    2300098: Mesh 3
+    2300100: mesh 3
+    2300102: mesh 30
+    2300104: mesh 31
+    2300106: mesh 32
+    2300108: Mesh 4
+    2300110: mesh 4
+    2300112: Mesh 5
+    2300114: mesh 5
+    2300116: Mesh 6
+    2300118: mesh 6
+    2300120: Mesh 7
+    2300122: mesh 7
+    2300124: Mesh 8
+    2300126: mesh 8
+    2300128: Mesh 9
+    2300130: mesh 9
+    2300132: Mesh001
+    2300134: mesh001
+    2300136: mesh002
+    2300138: mesh003
+    2300140: mesh004
+    2300142: mesh005
+    2300144: mesh006
+    2300146: Object001
+    2300148: Object002
+    2300150: Object003
+    2300152: Object004
+    2300154: Object021
+    2300156: Object032
+    2300158: Object038
+    2300160: Object041
+    2300162: Object042
+    2300164: Object043
+    2300166: Object044
+    2300168: Object046
+    2300170: Object052
+    2300172: Object114
+    2300174: Object116
+    2300176: Object119
+    2300178: Object120
+    2300180: Object121
+    2300182: Object122
+    2300184: Object127
+    2300186: Object128
+    2300188: Object131
+    2300190: Object174
+    2300192: Object175
+    2300194: Object176
+    2300196: Object188
+    2300198: Object208
+    2300200: Object214
+    2300202: Object217
+    2300204: Object218
+    2300206: Object219
+    2300208: Plane002
+    2300210: Plane008
+    2300212: polySurface1607
+    2300214: polySurface22
+    2300216: polySurface2715
+    2300218: polySurface2716
+    2300220: polySurface2717
+    2300222: polySurface2719
+    2300224: polySurface2729
+    2300226: polySurface66
+    2300228: prop_shovel_002
+    2300230: prop_shovel_01
+    2300232: prop_sword_002
+    2300234: prop_sword_003
+    2300236: Prop_Torch2_LOD0
+    2300238: sack1b:Group005
+    2300240: sack1b:Group006
+    2300242: spear_explode
+    2300244: spear_explode001
+    3300000: //RootNode
+    3300002: ' 1'
+    3300004: Box005
+    3300006: Box006
+    3300008: Box007
+    3300010: Camp01_a
+    3300012: challenger_boots_MeshPart0
+    3300014: challenger_boots_MeshPart1
+    3300016: challenger_helm
+    3300018: challenger_knife
+    3300020: Cylinder002
+    3300022: Cylinder005
+    3300024: Cylinder007
+    3300026: jug4:polySurface002
+    3300028: jug4:polySurface1
+    3300030: Mesh
+    3300032: mesh
+    3300034: Mesh 1
+    3300036: mesh 1
+    3300038: Mesh 10
+    3300040: mesh 10
+    3300042: Mesh 11
+    3300044: mesh 11
+    3300046: Mesh 12
+    3300048: mesh 12
+    3300050: Mesh 13
+    3300052: mesh 13
+    3300054: Mesh 14
+    3300056: mesh 14
+    3300058: Mesh 15
+    3300060: mesh 15
+    3300062: Mesh 16
+    3300064: mesh 16
+    3300066: Mesh 17
+    3300068: mesh 17
+    3300070: mesh 18
+    3300072: mesh 19
+    3300074: Mesh 2
+    3300076: mesh 2
+    3300078: mesh 20
+    3300080: mesh 21
+    3300082: mesh 22
+    3300084: mesh 23
+    3300086: mesh 24
+    3300088: mesh 25
+    3300090: mesh 26
+    3300092: mesh 27
+    3300094: mesh 28
+    3300096: mesh 29
+    3300098: Mesh 3
+    3300100: mesh 3
+    3300102: mesh 30
+    3300104: mesh 31
+    3300106: mesh 32
+    3300108: Mesh 4
+    3300110: mesh 4
+    3300112: Mesh 5
+    3300114: mesh 5
+    3300116: Mesh 6
+    3300118: mesh 6
+    3300120: Mesh 7
+    3300122: mesh 7
+    3300124: Mesh 8
+    3300126: mesh 8
+    3300128: Mesh 9
+    3300130: mesh 9
+    3300132: Mesh001
+    3300134: mesh001
+    3300136: mesh002
+    3300138: mesh003
+    3300140: mesh004
+    3300142: mesh005
+    3300144: mesh006
+    3300146: Object001
+    3300148: Object002
+    3300150: Object003
+    3300152: Object004
+    3300154: Object021
+    3300156: Object032
+    3300158: Object038
+    3300160: Object041
+    3300162: Object042
+    3300164: Object043
+    3300166: Object044
+    3300168: Object046
+    3300170: Object052
+    3300172: Object114
+    3300174: Object116
+    3300176: Object119
+    3300178: Object120
+    3300180: Object121
+    3300182: Object122
+    3300184: Object127
+    3300186: Object128
+    3300188: Object131
+    3300190: Object174
+    3300192: Object175
+    3300194: Object176
+    3300196: Object188
+    3300198: Object208
+    3300200: Object214
+    3300202: Object217
+    3300204: Object218
+    3300206: Object219
+    3300208: Plane002
+    3300210: Plane008
+    3300212: polySurface1607
+    3300214: polySurface22
+    3300216: polySurface2715
+    3300218: polySurface2716
+    3300220: polySurface2717
+    3300222: polySurface2719
+    3300224: polySurface2729
+    3300226: polySurface66
+    3300228: prop_shovel_002
+    3300230: prop_shovel_01
+    3300232: prop_sword_002
+    3300234: prop_sword_003
+    3300236: Prop_Torch2_LOD0
+    3300238: sack1b:Group005
+    3300240: sack1b:Group006
+    3300242: spear_explode
+    3300244: spear_explode001
+    4300000: Mesh
+    4300002: Box005
+    4300004: mesh
+    4300006: Box006
+    4300008: Box007
+    4300010: Object174
+    4300012: Object175
+    4300014: Object176
+    4300016: Mesh
+    4300018: Object188
+    4300020: challenger_boots_MeshPart0
+    4300022: challenger_boots_MeshPart1
+    4300024: challenger_helm
+    4300026: Object003
+    4300028: prop_sword_003
+    4300032: prop_shovel_002
+    4300034: Object004
+    4300036: prop_shovel_01
+    4300038: Cylinder002
+    4300040: spear_explode
+    4300042: Mesh
+    4300044: Mesh
+    4300046: mesh
+    4300048: mesh
+    4300050: mesh
+    4300052: Plane002
+    4300054: mesh
+    4300056: mesh
+    4300058: mesh
+    4300060: mesh
+    4300062: polySurface2716
+    4300064: challenger_knife
+    4300066: polySurface22
+    4300068: Prop_Torch2_LOD0
+    4300070: mesh
+    4300072: jug4:polySurface1
+    4300074: mesh
+    4300076: Mesh
+    4300078: Mesh
+    4300080: spear_explode001
+    4300082: mesh
+    4300084: mesh
+    4300086: polySurface1607
+    4300088: sack1b:Group005
+    4300090: mesh
+    4300092: polySurface2715
+    4300094: mesh
+    4300096: mesh
+    4300098: Mesh
+    4300100: Object021
+    4300102: mesh
+    4300104: Cylinder007
+    4300106: polySurface2717
+    4300108: polySurface2719
+    4300110: Cylinder005
+    4300112: jug4:polySurface002
+    4300114: mesh
+    4300116: Object038
+    4300118: Object116
+    4300120: Object119
+    4300122: mesh
+    4300124: Mesh001
+    4300126: mesh
+    4300128: mesh001
+    4300130: sack1b:Group006
+    4300132: mesh003
+    4300134: mesh004
+    4300136: Object041
+    4300138: Object114
+    4300140: Object121
+    4300142: Mesh
+    4300144: Plane008
+    4300146: mesh
+    4300148: mesh002
+    4300150: mesh
+    4300152: Object128
+    4300154: Object044
+    4300156: mesh
+    4300158: mesh
+    4300160: mesh
+    4300162: polySurface2729
+    4300164: Object122
+    4300166: mesh
+    4300168: Camp01_a
+    4300170: Object042
+    4300172: Object043
+    4300174: Object052
+    4300176: mesh
+    4300178: mesh
+    4300180: Object120
+    4300182: Object127
+    4300184: Object032
+    4300186: Object046
+    4300188: Object002
+    4300190: prop_sword_002
+    4300192: Object001
+    4300194: mesh
+    4300196: mesh006
+    4300198: Object131
+    4300200: Mesh
+    4300202: mesh
+    4300204: mesh005
+    4300206: mesh
+    4300208: mesh
+    4300210: mesh
+    4300212: polySurface66
+    4300214: Mesh
+    4300216: mesh
+    4300218: Mesh
+    4300220: Object208
+    4300222: Mesh
+    4300224: Mesh
+    4300226: Mesh
+    4300228: Mesh
+    4300230: Object214
+    4300232: Object217
+    4300234: Object218
+    4300236: Mesh
+    4300238: Mesh
+    4300240: Mesh
+    4300242: Object219
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
