@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.VR;
 
 public class SC_Pres_Perso : MonoBehaviour
 {
@@ -49,7 +50,8 @@ public class SC_Pres_Perso : MonoBehaviour
     RaycastHit hit;
     public void FixedUpdate()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        /*
+        Ray ray = camera.hit.collider.GetComponent<VRInteractiveItem>();
 
         if (Physics.Raycast(ray, out hit, checkDistance, prodLayer))
         {
@@ -58,6 +60,27 @@ public class SC_Pres_Perso : MonoBehaviour
         }
         else
         {hideInfo();}
+        */
+        RaycastHit seen;
+        Quaternion HMDRotation = InputTracking.GetLocalRotation(VRNode.Head);
+        Vector3 playerRotation = HMDRotation * transform.forward;
+        //Quaternion camrot = transform.rotation;
+        //Vector3 playerRotation = camrot * transform.forward;
+        Ray raydirection = new Ray(transform.position, playerRotation);
+        if (Physics.Raycast(raydirection, out seen))
+        {
+            if (seen.collider.tag == "Test")
+            {
+                Debug.Log("GOOD HIT");
+            }
+            else
+            {
+                //Debug.Log(seen.collider.tag);
+            }
+
+        }
+
+        Debug.DrawRay(transform.position, playerRotation, Color.blue, 100);
     }
 
     public void showInfo(Model_CadreInfo data)
